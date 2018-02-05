@@ -21,7 +21,7 @@ public class LoginController {
 	   @RequestMapping(value="/login", method = RequestMethod.GET)
 	   @ResponseBody
 	    public String showLoginPage(ModelMap model){
-	        return "loginpage";
+	        return "loginpage testing..";
 	    }
 
 		@RequestMapping(value="/hello", method = RequestMethod.GET)
